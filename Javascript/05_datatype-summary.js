@@ -43,4 +43,32 @@ function myfunction (a, b) {
 //console.log(score);
 
 
+let person1 = "Rahul";
+
+let person2 = "Hitesh"
+
+let person3 = person1;
+
+person1 = "Mitesh";
+
+console.log(person1);
+console.log(person3);
+
+let userone = {
+
+    flata: 1,
+    flatb: 2,
+    flatc: 3
+
+}
+
+//console.log(userone.flata);
+
+
+let usertwo = userone  
+
+usertwo.flata = 4;
+
+console.log(usertwo.flata);
+console.log(userone.flata);
 
