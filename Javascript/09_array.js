@@ -47,3 +47,8 @@ let ramsurname1 = new Array ("bansal", "kansal", "gupta", "sharma")
 let splicename = ramsurname1.splice(1,3);
 
 console.log(splicename);
+
+let newname = new Array ("rahul", "prashant", "divya", "mousam")
+
+console.log(newname.slice(2,4));
+
