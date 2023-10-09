@@ -52,3 +52,32 @@ let newname = new Array ("rahul", "prashant", "divya", "mousam")
 
 console.log(newname.slice(2,4));
 
+let crickters = new Array ("Sachine", "Dhoni", "Virat")
+
+let bollywoordheros = new Array ("SRK", "Ranveer", "Saif")
+
+// let pushvalue = crickters.concat(bollywoordheros);
+
+// console.log(pushvalue);
+
+// crickters.push(bollywoordheros)
+
+// console.log(crickters);
+
+let spreadvalues = [...crickters, ...bollywoordheros]
+
+console.log(spreadvalues);
+
+let joinarray = [1,2,3,4, 5,6,7, [8,9,10] ]
+
+let joinrealarray = joinarray.flat(Infinity)
+
+console.log(joinrealarray);
+
+
+
+
+
+
+
+
