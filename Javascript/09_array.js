@@ -74,6 +74,18 @@ let joinrealarray = joinarray.flat(Infinity)
 
 console.log(joinrealarray);
 
+console.log(Array.isArray("Rahul")); // here "isArray" means we are asking that given value is Array or Not 
+console.log(Array.from("Rahul")); // here "from" means that we are converting value into an Array 
+
+let score1 = 1
+let score2 = 2
+let score3 = 3
+
+let scoreconvert = Array.of(score1,score2,score3)
+//let scoreconvert = Array.of("score1","score2","score3")
+
+console.log(scoreconvert);
+
 
 
 
