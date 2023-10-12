@@ -2,12 +2,22 @@
 
 // object literals
 
-const car =  {
+const userdetails =  {
   
     wonar: "ram",
-    manor: "shyam"
+    manor: "shyam",
+    email : "rahulbansal@google.com",
+    password: 111111,
+    userid: "bana@1"
 
 }
 
-console.log(car.wonar);
+console.log(userdetails.password);
+
+userdetails.password = 22222222;
+
+console.log(userdetails);
+
+
+
 
